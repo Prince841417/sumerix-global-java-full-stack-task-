@@ -1,0 +1,5 @@
+Implemented as the main project in:
+main.Main
+service.StudentService
+repository.FileStudentRepository
+model.Student

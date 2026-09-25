@@ -1,0 +1,8 @@
+GitHub submission steps:
+1. Create a new GitHub repository.
+2. git init
+3. git add .
+4. git commit -m "Complete Java Full Stack Internship Task 1"
+5. git branch -M main
+6. git remote add origin YOUR_REPOSITORY_URL
+7. git push -u origin main

@@ -1,0 +1,18 @@
+JAVA FULL STACK INTERNSHIP – TASK 1
+Submission checklist
+
+[✓] Java source code
+[✓] Console application
+[✓] File handling module
+[✓] OOP-based modular structure
+[✓] Collections
+[✓] Exception handling
+[✓] Input validation
+[✓] README.md
+[✓] Project documentation
+[✓] pom.xml
+[✓] Professional HTML/CSS web UI connected to Java
+[✓] .gitignore
+[ ] Add your own runtime screenshots to docs/screenshots/
+[ ] Create GitHub repository and push the project
+[ ] Add GitHub repository link to README.md

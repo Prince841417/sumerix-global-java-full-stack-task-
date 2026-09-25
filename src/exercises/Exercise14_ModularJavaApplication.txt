@@ -1,0 +1,3 @@
+The complete project is modularized into:
+model, service, repository, exception, util, and main packages.
+See the main Student Management System implementation.

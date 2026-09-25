@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">S</div>
+        <div><h1>StudentHub</h1><span>Management System</span></div>
+      </div>
+      <nav>
+        <button class="nav-item active" data-section="dashboard">Dashboard</button>
+        <button class="nav-item" data-section="students">Students</button>
+        <button class="nav-item" data-section="add">Add Student</button>
+      </nav>
+      <div class="sidebar-footer">Java Full Stack · Task 1</div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">ADMIN PORTAL</p>
+          <h2 id="pageTitle">Dashboard</h2>
+        </div>
+        <button class="primary" id="quickAdd">+ Add Student</button>
+      </header>
+
+      <section id="dashboard" class="section active">
+        <div class="hero">
+          <div>
+            <p class="eyebrow">WELCOME BACK</p>
+            <h3>Manage your students with ease.</h3>
+            <p>Add, search, update, delete and persist student records from one clean interface.</p>
+          </div>
+          <div class="hero-mark">🎓</div>
+        </div>
+
+        <div class="stats">
+          <div class="stat-card"><span>Total Students</span><strong id="totalStudents">0</strong></div>
+          <div class="stat-card"><span>Average Marks</span><strong id="avgMarks">0.00</strong></div>
+          <div class="stat-card"><span>Highest Marks</span><strong id="maxMarks">0.00</strong></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head"><div><h3>Recent Students</h3><p>Latest records in the system</p></div><button class="text-btn" id="viewAll">View all →</button></div>
+          <div id="recentTable"></div>
+        </div>
+      </section>
+
+      <section id="students" class="section">
+        <div class="panel">
+          <div class="panel-head">
+            <div><h3>Student Records</h3><p>Search and manage all student records</p></div>
+            <div class="actions"><input id="search" class="search" placeholder="Search by name..."><button class="secondary" id="saveBtn">Save Records</button></div>
+          </div>
+          <div id="studentTable"></div>
+        </div>
+      </section>
+
+      <section id="add" class="section">
+        <div class="form-card">
+          <div class="form-title"><h3 id="formTitle">Add New Student</h3><p>Enter student details below.</p></div>
+          <form id="studentForm">
+            <input type="hidden" id="editId">
+            <div class="grid">
+              <label>Student ID<input id="id" type="number" min="1" required></label>
+              <label>Full Name<input id="name" required></label>
+              <label>Age<input id="age" type="number" min="1" max="100" required></label>
+              <label>Course<input id="course" required></label>
+              <label>Marks<input id="marks" type="number" min="0" max="100" step="0.01" required></label>
+            </div>
+            <div class="form-actions"><button type="button" class="secondary" id="cancelBtn">Cancel</button><button class="primary" type="submit">Save Student</button></div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
