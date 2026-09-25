@@ -1,59 +1,136 @@
-# Java Full Stack Development Internship – Task 1
+# Student Management System – Java Full Stack Internship Task 1
 
-## Console-Based Student Management System
+A Java Full Stack Student Management System developed as part of the **Java Full Stack Development Internship – Task 1**.
 
-This project implements the Task 1 mini/capstone project using Core Java, OOP, collections, exception handling, file handling, and Git/GitHub-ready project organization.
+The project demonstrates Core Java, Object-Oriented Programming, collections, file handling, exception handling, input validation, and a web-based interface using HTML, CSS, and JavaScript.
 
-## Features
+---
+
+## 📌 Project Overview
+
+The **Student Management System** allows users to manage student records through a simple and professional web interface.
+
+The application supports essential student management operations such as:
+
 - Add Student
+- View Student Records
+- Search Student
 - Update Student
 - Delete Student
-- Search Student
-- Display All Students
-- Save Records to File
-- Load Records from File
+- Save Student Records
+- Load Student Records
 - Input Validation
 - Exception Handling
-- Modular Package Structure
-- Clean, readable Java code
+- File-based Data Persistence
 
-## Technologies
-- Java 21 LTS
-- Core Java
-- OOP
-- ArrayList
-- FileReader / FileWriter
-- BufferedReader / BufferedWriter
-- Custom Exceptions
-- Git & GitHub
+The project follows a modular Java package structure to keep the code clean, readable, and maintainable.
 
-## Project Structure
+---
+
+## ✨ Features
+
+### 👨‍🎓 Student Management
+
+- Add a new student
+- View all student records
+- Search students by name
+- Update existing student information
+- Delete student records
+- Display student details
+
+### 💾 File Handling
+
+- Save student records to a file
+- Load student records from a file
+- Persistent student data using file-based storage
+
+### 🛡️ Validation & Exception Handling
+
+- Input validation for student information
+- Custom exception handling
+- Student-not-found handling
+- Invalid student data handling
+
+### 🌐 Web Interface
+
+- Professional dashboard
+- Student records table
+- Add Student form
+- Search functionality
+- Edit and Delete actions
+- Save Records functionality
+- Clean HTML/CSS interface
+- JavaScript-based frontend interaction
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java 21 LTS**
+- **Core Java**
+- **Object-Oriented Programming (OOP)**
+- **ArrayList / Collections**
+- **FileReader**
+- **FileWriter**
+- **BufferedReader**
+- **BufferedWriter**
+- **Custom Exceptions**
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Maven**
+- **Git**
+- **GitHub**
+
+---
+
+## 🏗️ Project Architecture
+
+The project is organized into separate packages according to their responsibilities.
+
 ```text
 Java-Full-Stack-Task-1/
+│
 ├── src/
 │   ├── model/
 │   │   └── Student.java
+│   │
 │   ├── service/
 │   │   └── StudentService.java
+│   │
 │   ├── repository/
 │   │   ├── StudentRepository.java
 │   │   └── FileStudentRepository.java
+│   │
 │   ├── exception/
 │   │   ├── InvalidStudentException.java
 │   │   └── StudentNotFoundException.java
+│   │
 │   ├── util/
 │   │   └── InputUtil.java
-│   └── main/
-│       └── Main.java
+│   │
+│   ├── main/
+│   │   ├── Main.java
+│   │   └── WebServer.java
+│   │
+│   └── exercises/
+│       └── Practical exercises
+│
 ├── data/
 │   └── students.txt
+│
 ├── docs/
 │   └── PROJECT_DOCUMENTATION.md
-├── README.md
+│
+├── web/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
 ├── .gitignore
-└── pom.xml
-```
-
+├── pom.xml
+├── README.md
+└── SUBMISSION_CHECKLIST.txt
 ## Run with JDK 21
 
 ### Compile
