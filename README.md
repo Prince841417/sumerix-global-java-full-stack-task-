@@ -155,17 +155,6 @@ Records are persisted in `data/students.txt` using:
 ```text
 id|name|age|course|marks
 ```
-
-## Git commands
-```bash
-git init
-git add .
-git commit -m "Complete Java Full Stack Internship Task 1"
-git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
-```
-
 ## Future Enhancements
 - JDBC/MySQL database
 - Maven/JUnit tests
