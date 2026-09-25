@@ -219,3 +219,17 @@ The web UI supports:
 - Delete student
 - Save records
 - File persistence using the existing Java repository
+
+- ## 📸 Screenshots
+
+### Student Dashboard
+<img width="935" height="449" alt="Screenshot 2026-09-25 093742" src="https://github.com/user-attachments/assets/8e53b9ad-32e6-4f79-b735-08d77ba2d381" />
+
+### Add Student
+<img width="950" height="451" alt="Screenshot 2026-09-25 094554" src="https://github.com/user-attachments/assets/4179b913-4b60-4ddd-81f3-89315ba0356e" />
+
+
+### Student Records
+<img width="939" height="449" alt="Screenshot 2026-09-25 093809" src="https://github.com/user-attachments/assets/9130d5ff-c9e8-49f7-a65c-fc862c455441" />
+
+
